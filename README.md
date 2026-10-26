@@ -4,7 +4,7 @@ An AI chat app for Indian students and job-seekers.
 
 Sarthi takes its concept from [LibreChat](https://github.com/danny-avila/LibreChat) — a self-hosted, multi-model AI chat interface — and scopes it down to what students and job-seekers in India actually need every day: study help, exam answers, and job preparation, with costs kept visible in rupees.
 
-> **Status:** Planning — build starts after my STET exam (Nov 2026). No code yet; this repo currently holds the plan. Everything here will be written from scratch — LibreChat is a reference for features and architecture, not a source to copy from.
+> **Status:** Planning. No code yet; this repo currently holds the design docs. LibreChat is a reference for features and architecture — all code here will be written from scratch.
 
 ## What it will do
 
@@ -13,13 +13,15 @@ Sarthi takes its concept from [LibreChat](https://github.com/danny-avila/LibreCh
 - Presets for common tasks (study, revision, interview prep)
 - Token and cost tracking shown in ₹, so usage never surprises you
 
-## Planned differentiators (first five)
+## Planned features
 
 1. **Resume-vs-JD analyser** — compare a resume against a job description and show the gaps
 2. **Mock Interview Mode** — practice interviews with follow-up questions
 3. **Exam-Answer Modes** — answers shaped for exam marking schemes, not just chat
 4. **Hinglish / Samjhao** — explain in simple Hinglish when English gets in the way
 5. **₹ smart routing** — pick the cheapest provider that can handle the task
+
+The full feature list is in `docs/features.md`; the design is in `docs/architecture.md`.
 
 ## Tech stack
 
@@ -32,13 +34,9 @@ Sarthi takes its concept from [LibreChat](https://github.com/danny-avila/LibreCh
 
 JWT auth, conversation CRUD, markdown chat UI, SSE streaming, provider adapters, presets, token/₹ cost tracking, search, and deployment.
 
-## Deliberately cut (for now)
+## Out of scope for v1
 
-Real RAG, agents/MCP, code interpreter, image generation, SSO, and an admin panel. These are out of scope for v1 and are named here so the scope stays honest.
-
-## Roadmap
-
-An 8-week build plan lives in `docs/roadmap.md` (coming with the docs). The build checklist, differentiators, and interview Q&A are tracked alongside the project plan.
+Real RAG, agents/MCP, code interpreter, image generation, SSO, and an admin panel.
 
 ## License
 

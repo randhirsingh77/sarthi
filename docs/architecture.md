@@ -1,8 +1,8 @@
 # Architecture
 
-> Planning document. No code exists yet — build starts after my STET exam
-> (Nov 2026). This doc describes the design the build will follow, so the
-> code can be written against it rather than improvised.
+> Planning document. No code exists yet. This doc describes the design
+> the build will follow, so the code can be written against it rather
+> than improvised.
 
 Sarthi is a scoped, original AI chat app for Indian students and
 job-seekers: one chat window for several LLM providers, with study and
@@ -22,8 +22,7 @@ list and the architecture shape only.
 | Deployment (planned) | Client on Vercel, API on Render |
 
 The stack is deliberately the same shape as the reference's: a React client,
-an Express API, and MongoDB. That keeps the whole build inside the MERN
-skills the project is meant to demonstrate.
+an Express API, and MongoDB — one consistent stack across client and server.
 
 ## Layout
 
