@@ -195,10 +195,10 @@ make tests slow, flaky, and expensive.
 Real RAG/vector search (the reference runs it as a separate Python service
 — this project's PDF features use full-text-in-prompt within limits
 instead), AI agents/MCP, a code-interpreter sandbox, image generation,
-SSO/LDAP, an admin panel, and paid speech APIs. Naming the cut list, with
-reasons, is part of the design — see the README.
+SSO/LDAP, an admin panel, and paid speech APIs. See the README for the
+v1 scope.
 
 ## Related docs
 
-- `features.md` — the 12 differentiators and the recommended first five.
+- `features.md` — the full feature list.
 - `roadmap.md` — the build roadmap.
