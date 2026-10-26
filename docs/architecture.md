@@ -201,4 +201,4 @@ reasons, is part of the design — see the README.
 ## Related docs
 
 - `features.md` — the 12 differentiators and the recommended first five.
-- `roadmap.md` — the 8-week build plan, week by week.
+- `roadmap.md` — the build roadmap.
