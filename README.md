@@ -2,9 +2,9 @@
 
 An AI chat app for Indian students and job-seekers.
 
-Sarthi takes its concept from [LibreChat](https://github.com/danny-avila/LibreChat) — a self-hosted, multi-model AI chat interface — and scopes it down to what students and job-seekers in India actually need every day: study help, exam answers, and job preparation, with costs kept visible in rupees.
+I'm building Sarthi by taking the concept from [LibreChat](https://github.com/danny-avila/LibreChat) — a self-hosted, multi-model AI chat interface — and scoping it down to what students and job-seekers in India actually need every day: study help, exam answers, and job preparation, with costs kept visible in rupees.
 
-> **Status:** Planning. No code yet; this repo currently holds the design docs. LibreChat is a reference for features and architecture — all code here will be written from scratch.
+> **Status:** Planning. No code yet; this repo currently holds the design docs. LibreChat is my reference for features and architecture — all code here will be my own, written from scratch.
 
 ## What it will do
 
